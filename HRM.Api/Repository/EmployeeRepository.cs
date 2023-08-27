@@ -20,22 +20,22 @@ public class EmployeeRepository : IEmployeeRepository
             var allemployess = _context.Employees.ToListAsync();
             return await allemployess;
         }
-        catch (Exception exp)
+        catch (Exception)
         {
-            throw (exp);
+            throw;
         }
     }
 
-    public async Task<Employee> SelectEmployee(int id)
+    public async Task<Employee?> SelectEmployee(int id)
     {
         try
         {
-            var employee = _context.Employees.FindAsync(id);
-            return await employee;
+            var employee = await _context.Employees.FindAsync(id);
+            return employee;
         }
-        catch (Exception exp)
+        catch (Exception)
         {
-            throw (exp);
+            throw;
         }
     }
 
@@ -74,9 +74,9 @@ public class EmployeeRepository : IEmployeeRepository
             await _context.SaveChangesAsync();
             return "Data saved successfully!";
         }
-        catch (Exception exp)
+        catch (Exception)
         {
-            throw (exp);
+            throw;
         }
     }
 

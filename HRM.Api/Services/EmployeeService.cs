@@ -17,9 +17,9 @@ public class EmployeeService : IEmployeeService
         {
             return await _employeeRepository.SelectAllEmployees();
         }
-        catch (Exception exp)
+        catch (Exception)
         {
-            throw (exp);
+            throw;
         }
     }
 
@@ -29,9 +29,9 @@ public class EmployeeService : IEmployeeService
         {
             return await _employeeRepository.SelectEmployee(id);
         }
-        catch (Exception exp)
+        catch (Exception)
         {
-            throw (exp);
+            throw;
         }
     }
 
@@ -41,9 +41,9 @@ public class EmployeeService : IEmployeeService
         {
             return await _employeeRepository.UpdateEmployee(id, employee);
         }
-        catch (Exception exp)
+        catch (Exception)
         {
-            throw (exp);
+            throw;
         }
     }
 
@@ -53,9 +53,9 @@ public class EmployeeService : IEmployeeService
         {
             return await _employeeRepository.SaveEmployee(employee);
         }
-        catch (Exception exp)
+        catch (Exception)
         {
-            throw (exp);
+            throw;
         }
     }
 
@@ -65,9 +65,9 @@ public class EmployeeService : IEmployeeService
         {
             return await _employeeRepository.DeleteEmployee(id);
         }
-        catch (Exception exp)
+        catch (Exception)
         {
-            throw (exp);
+            throw;
         }
     }
 
