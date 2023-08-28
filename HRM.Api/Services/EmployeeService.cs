@@ -23,7 +23,7 @@ public class EmployeeService : IEmployeeService
         }
     }
 
-    public async Task<Employee> GetEmployee(int id)
+    public async Task<Employee?> GetEmployee(int id)
     {
         try
         {
