@@ -27,7 +27,6 @@ namespace HRM.Api.Controllers
             {
                 return BadRequest(exp.Message);
             }
-            //return await _context.Employees.ToListAsync();
         }
 
 
@@ -60,7 +59,6 @@ namespace HRM.Api.Controllers
             catch (Exception exp)
             {
                 return BadRequest(exp.Message);
-                //
             }
         }
 
