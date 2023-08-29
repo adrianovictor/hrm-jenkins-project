@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XCbhm6us2mrSrlmkvQfHtv9WGxHSojCHNCplk6ImhpE9l04Wv7ZfWJ4r9Hj8hLbPHGAE5YB/ZfKApdqaEWWJMQ==",
+  "dgSpecHash": "QzxBT79jGdAGFkVNKxdRA6aA2rO4VGy50U1/iF0KBI+kq1TZSQGoBaf2Gj5Uy161OlZqQ5nMulK2fJ6WdGW99Q==",
   "success": true,
-  "projectFilePath": "C:\\Desenvolvimento\\A2SSolucoesDigitias\\project-jenkins\\HRM\\HRM.Api\\HRM.Api.csproj",
+  "projectFilePath": "c:\\Desenvolvimento\\A2SSolucoesDigitias\\project-jenkins\\HRM\\HRM.Api\\HRM.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adria\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",

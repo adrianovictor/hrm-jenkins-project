@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K/1i3QZ5cTm6D6+7WP9liFatydyQtrnjhTpXl/FWspxzb1meu1ARm7rVz2+biI6IlxfAJL3ATYw7/bmnIsxutg==",
+  "dgSpecHash": "bNcZZ5xQ5OLTCmstvG5G9z5kQWq1gLnghWvg/uiH2y31DIzdZFCgSrsChfCMgzqgcIFPQjHGAqXqXjcBjQZlhw==",
   "success": true,
-  "projectFilePath": "C:\\Desenvolvimento\\A2SSolucoesDigitias\\project-jenkins\\HRM\\HRM.Tests\\HRM.Tests.csproj",
+  "projectFilePath": "c:\\Desenvolvimento\\A2SSolucoesDigitias\\project-jenkins\\HRM\\HRM.Tests\\HRM.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adria\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
