@@ -1,2 +1,13 @@
-.vs/*
-.vscode/*
+# User specific files
+.vs/
+.vscode/
+
+# Build results
+
+DesignTimeResolveAssemblyReferencesInput.cache
+[Dd]ebug/
+[Rr]elease/
+x64/
+*.jfm
+[Bb]in/
+[Oo]bj/
